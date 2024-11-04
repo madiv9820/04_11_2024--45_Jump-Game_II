@@ -3,8 +3,8 @@
     - ### Intuition
         - The goal of the problem is to find the minimum number of jumps required to reach the last index of an array, where each element specifies the maximum jump length from that position. The intuition here is to think about how far we can go with each jump and to make strategic decisions about when to jump. By iterating through the reachable indices, we can continuously extend our range until we reach or surpass the last index.
 
-        - Please checkout this video for reference:- [Jump Game II - Greedy - Leetcode 45 - Python](https://www.youtube.com/watch?v=dJ7sWiOoK7g)
-
+        - - Please checkout this explanation video by __NeetCode__ *(no paid promotion)* for reference:- [Jump Game II - Greedy - Leetcode 45 - Python](https://www.youtube.com/watch?v=dJ7sWiOoK7g)
+        
     - ### Approach
         1. **Greedy Algorithm**:
             - We use a greedy approach where we keep track of two pointers: `left_Ptr` and `right_Ptr`. 
