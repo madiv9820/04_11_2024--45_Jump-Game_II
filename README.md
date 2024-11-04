@@ -1,4 +1,4 @@
-- ## Brute Force using Recursion
+- ## Approach 1:- Brute Force using Recursion
 
     - ### Intuition
         - The problem is about finding the minimum number of jumps needed to reach the last index of an array where each element represents the maximum jump length from that position. The core idea is to explore how far you can jump from each index and to count the minimum number of jumps required to reach the end.
