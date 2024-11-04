@@ -18,13 +18,13 @@
             - Keep track of the minimum jumps needed.
 
     - ### Time Complexity
-        - In the worst case, the algorithm explores all possible combinations of jumps from each index. This can lead to an exponential number of calls, specifically \(O(2^n)\) for \(n\) being the size of the array, since each index can lead to multiple branches of recursive calls.
-        - However, with memoization, we can significantly reduce this to \(O(n^2)\) because we are solving each subproblem once and storing the results.
+        - In the worst case, the algorithm explores all possible combinations of jumps from each index. This can lead to an exponential number of calls, specifically __O(2<sup>n</sup>)__ for __n__ being the size of the array, since each index can lead to multiple branches of recursive calls.
+        - However, with memoization, we can significantly reduce this to __(O(n<sup>2</sup>)__ because we are solving each subproblem once and storing the results.
 
     - ### Space Complexity
-        - **Space for the call stack**: The maximum depth of the recursion will be \(O(n)\) in the worst case, where the function calls itself for each index in the array.
-        - **Space for memoization**: We need additional space to store the results of subproblems, which will be \(O(n)\).
-        - Therefore, the overall space complexity is \(O(n)\).
+        - **Space for the call stack**: The maximum depth of the recursion will be __O(n)__ in the worst case, where the function calls itself for each index in the array.
+        - **Space for memoization**: We need additional space to store the results of subproblems, which will be __O(n)__.
+        - Therefore, the overall space complexity is __O(n)__.
 
     - ### Code
         - **Python Solution** 
